@@ -1,7 +1,7 @@
 # About Admin-Dasboard App
 
 This is a React app that leverages: .\
-    i. Material UI, Material Icons
+    i. Material UI, Material Icons .\
     ii. Recharts - composable charting library built on React components
 
 
