@@ -2,3 +2,11 @@
   font-family: 'Source Sans Pro', sans-serif; 
   margin: 0;
 }
+.container {
+  display: flex;
+}
+
+.main-content {
+  flex: 4;
+  /* background-color: cyan; */
+}

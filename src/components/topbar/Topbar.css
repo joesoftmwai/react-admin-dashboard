@@ -18,8 +18,9 @@
 .logo   {
     font-weight: bold;
     font-size: 30px;
-    color: darkblue;
+    color: #09b0e8;
     cursor: pointer;
+    text-transform: inherit;
 }
 
 .topRight {
