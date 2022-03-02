@@ -8,5 +8,6 @@
 
 .main-content {
   flex: 4;
-  /* background-color: cyan; */
+  background-color: #f6f6f6;
+  padding: 18px 12px 0 12px;
 }
