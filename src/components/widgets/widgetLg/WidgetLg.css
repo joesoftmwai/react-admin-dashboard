@@ -1,0 +1,49 @@
+.widget-lg {
+    flex: 2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.widget-lg .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.table { 
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.tr>.customer {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.tr>.customer>.cust-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.tr>.status>.wl-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 8px;
+    /* cursor: pointer; */
+}
+
+tr.tr {
+    margin: 17px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Approved {background-color: #35fd0280; color: #17a704;}
+.Declined {background-color: #d86c595c; color: #ec3211;}
+.Pending {background-color: #5189f14d; color: #115eec;}

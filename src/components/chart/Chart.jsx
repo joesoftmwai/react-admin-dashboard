@@ -10,10 +10,10 @@ const Chart = ({title, data, dataKey, grid}) => {
         <div className='chart'>
          <h3 className='title'>{title}</h3>
          {/* the chart -- starts here */}
-         <ResponsiveContainer width="100%" aspect={4/1.25}>
+         <ResponsiveContainer width="100%" aspect={4/1}>
              <LineChart data={data}>
-                <XAxis dataKey="name" stroke='#5550bd' />
-                <Line type="monotone" dataKey={dataKey} stroke='#5550bd'/>
+                <XAxis dataKey="name" stroke='#09b0e8' />
+                <Line type="monotone" dataKey={dataKey} stroke='#09b0e8'/>
                 <Tooltip/>
                 {grid && <CartesianGrid strokeDasharray="3 3" />}
              </LineChart>
