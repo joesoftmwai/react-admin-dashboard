@@ -71,5 +71,81 @@ export const salesData = [
         pv: 4300,
         amt: 2100,
       },
-
   ];
+
+
+
+
+  export const usersData = [
+    { id: 1, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+    { id: 2, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+    { id: 3, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+    { id: 4, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+    { id: 5, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+    { id: 6, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+    { id: 7, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+    { id: 8, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+    { id: 9, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+    { id: 10, 
+        username: 'Jon Snow', 
+        avatar: 'https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png',
+        email: 'john@gmail.com',
+        status: 'Active',
+        transaction: '$120.00'
+    },
+
+];
