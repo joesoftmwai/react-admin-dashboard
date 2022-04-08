@@ -51,3 +51,8 @@
     width: 75%;
 }
 
+.list-item-link {
+    text-decoration: none;
+    color: #333;
+}
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Sidebar.css';
+import { Link } from 'react-router-dom';
 
 import { LineStyle, Timeline, TrendingUp, Notifications, Group, Inventory2, ReceiptLong, BarChart, Mail, DynamicFeed, Chat, WorkOutline, Report } from '@mui/icons-material';
 const Sidebar = () => {
@@ -11,7 +12,7 @@ const Sidebar = () => {
             </h3>
             <ul className='sidebar-list'>
                 <li className="sidebar-list-item active">
-                    <LineStyle className='side-bar-icon' /> Home
+                    <LineStyle className='side-bar-icon' /> <Link to="/" className='list-item-link'>Home</Link> 
                 </li>
                 <li className="sidebar-list-item">
                     <Timeline className='side-bar-icon' /> Analytics
@@ -28,7 +29,7 @@ const Sidebar = () => {
             </h3>
             <ul className='sidebar-list'>
                 <li className="sidebar-list-item">
-                    <Group className='side-bar-icon' /> Users
+                    <Group className='side-bar-icon' /> <Link to="/users" className='list-item-link'>Users</Link>
                 </li>
                 <li className="sidebar-list-item">
                     <Inventory2 className='side-bar-icon' /> Products
